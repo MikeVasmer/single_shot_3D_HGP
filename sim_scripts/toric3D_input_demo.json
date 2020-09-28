@@ -1,0 +1,21 @@
+{
+  "exec_file": "sim_scripts/single_shot_hgp3d.cpp",
+  "bp_max_iter": 50,
+  "target_runs": 500,
+  "code_type": "toric3D",
+  "distance_label": 5,
+  "code_label": "toric3D_5",
+  "hx_filename": "codes/toric3D/toric3D_5_hx.alist",
+  "lx_filename": "codes/toric3D/toric3D_5_lx.alist",
+  "mx_filename": "codes/toric3D/toric3D_5_mx.alist",
+  "lmx_filename": "codes/toric3D/toric3D_5_lmx.alist",
+  "mxlmx_filename": "codes/toric3D/toric3D_5_mxlmx.alist",
+  "sustained_threshold_depth": 4,
+  "input_seed": 6363,
+  "bp_method": "product_sum",
+  "osd_method": "combination_sweep",
+  "osd_order": 50,
+  "failure_mode_subroutine": true,
+  "bit_error_rate": 0.026,
+  "syndrome_error_rate": 0.026
+}

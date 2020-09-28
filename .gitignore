@@ -34,3 +34,4 @@
 
 #build directories
 build
+cmake-build-debug
