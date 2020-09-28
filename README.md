@@ -102,6 +102,16 @@ Where
   - "bit_error_rate": error rate on qubits
   - "syndrome_error_rate": error rate on syndromes
 
+
+## Software
+This library makes use of the following software:
+- [BP+OSD - Belief propagation plus ordered statistics decoding for quantum LDPC codes](https://github.com/quantumgizmos/bp_osd), Joschka Roffe
+- [Sofware for low density parity check codes](https://github.com/radfordneal/LDPC-codes), Radford M. Neal
+- [JSON for modern C++](https://github.com/nlohmann/json), Niels Lohmann
+- [The Mtwister C library](https://github.com/ESultanik/mtwister), Evan Sultanik
+
+
+
 ## Licence
 MIT License
 
