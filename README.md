@@ -2,7 +2,16 @@
 Todo: introduction, paper references etc.
 
 ## Setup
-Run the following commands from the repository route
+
+### clone the repo and import submodules
+
+```
+git clone https://github.com/MikeVasmer/single_shot_3D_HGP.git
+git submodule update --init --recursive
+```
+
+### build the demo sim script
+The demo sim script can be found at "sim_scripts/single_shot_hgp3d.cpp". To build it, run the following commands from the repository route
 
 ```
 mkdir build
