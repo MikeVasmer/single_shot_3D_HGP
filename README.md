@@ -49,7 +49,7 @@ build/single_shot_hgp3d sim_scripts/toric3D_input_demo.json sim_scripts/output
 The general syntax for running the sim script is as follows
 
 ```
-./build/bp_osd_decode <path_to_input_file.json> <path_to_output_directory>
+build/single_shot_hgp3d <path_to_input_file.json> <path_to_output_directory>
 ``` 
 
 ### Input file structure
