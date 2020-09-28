@@ -13,6 +13,7 @@ Todo:
 
 ```
 git clone https://github.com/MikeVasmer/single_shot_3D_HGP.git
+cd single_shot_3D_HGP
 git submodule update --init --recursive
 ```
 
