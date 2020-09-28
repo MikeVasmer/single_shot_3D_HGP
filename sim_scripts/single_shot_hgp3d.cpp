@@ -1,5 +1,6 @@
 //
 // Single-shot decoding of 3D hypergraph product codes.
+// This script implements the two-stage single shot decoder described in arXiv:2009.11790 where both stage 1 and stage 2 decoding are BP+OSD
 //
 
 //header files
@@ -20,6 +21,8 @@ using namespace std;
 int main(int argc, char *argv[])
 {
 
+
+    // checking validity of input
     if(argv[1]==nullptr){
         cout<<"ERROR: Please provide a location for the input directory"<<endl;
         exit(22);
@@ -158,7 +161,7 @@ int main(int argc, char *argv[])
 
 
 
-    //Setup BP+OSD decoder for hx
+    //Setup BP+OSD decoders for hx, mx and mxlmx
     bp_osd hx_bp_osd(hx,bit_error_rate,bp_max_iter,osd_order,osd_method_i,bp_method_i);
     output["bp_max_iter"]=hx_bp_osd.max_iter;
 
