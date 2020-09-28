@@ -1,13 +1,6 @@
 # single_shot_3D_HGP
-Todo: 
 
-1) ~~introduction~~
-2) ~~paper references etc.~~
-3) Software packages we've used
-4) Explain input files better
-5) Comment demo script
-
-C++ implementation of a single-shot decoder for three-dimensional homological product codes, using belief propagation with ordered statistics post-processing<sup>[1](#ref1),[2](#ref1)</sup>. The accompanying paper is avaiable on the arXiv<sup>[3](#ref3)</sup>.
+C++ implementation of a single-shot decoder for three-dimensional homological product codes, using belief propagation with ordered statistics post-processing<sup>[1](#ref1),[2](#ref1)</sup>. The accompanying paper is available on the arXiv<sup>[3](#ref3)</sup>.
 
 <a name="ref1">[1]</a>: Pavel Pateleev and Gleb Kalachev, "Degenerate Quantum LDPC Codes With Good Finite Length Performance", [arXiv:1904.02703](https://arxiv.org/abs/1904.02703)  
 <a name="ref2">[2]</a>: Joschka Roffe, David R. White, Simon Burton and Earl T. Campbell, "Decoding Across the Quantum LDPC Code Landscape", [arXiv:2005.07016](https://arxiv.org/abs/2005.07016)  
