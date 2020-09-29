@@ -2,7 +2,7 @@
 
 C++ implementation of a single-shot decoder for three-dimensional homological product codes, using belief propagation with ordered statistics post-processing<sup>[1](#ref1),[2](#ref1)</sup>. The accompanying paper is available on the arXiv<sup>[3](#ref3)</sup>.
 
-<a name="ref1">[1]</a>: Pavel Pateleev and Gleb Kalachev, "Degenerate Quantum LDPC Codes With Good Finite Length Performance", [arXiv:1904.02703](https://arxiv.org/abs/1904.02703)  
+<a name="ref1">[1]</a>: Pavel Panteleev and Gleb Kalachev, "Degenerate Quantum LDPC Codes With Good Finite Length Performance", [arXiv:1904.02703](https://arxiv.org/abs/1904.02703)  
 <a name="ref2">[2]</a>: Joschka Roffe, David R. White, Simon Burton and Earl T. Campbell, "Decoding Across the Quantum LDPC Code Landscape", [arXiv:2005.07016](https://arxiv.org/abs/2005.07016)  
 <a name="ref3">[3]</a>: Armanda O. Quintavalle, Michael Vasmer, Joschka Roffe and Earl T. Campbell, "Single-shot error correction of three-dimensional homological product codes", [arXiv:2009.11790](https://arxiv.org/abs/2009.11790)
 
